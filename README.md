@@ -30,36 +30,24 @@ console.log( mightty.cUN( data.d ) );
 
 ##  Quick Start
 
-__STEP 1__ 
 ```
+// STEP 1
 $ npm i -S mightty
 
-```
-__STEP 2__ 
-```
+// STEP 2
 import mighty from 'mightty';
 
-```
-or
-```
-import { cUN } from 'mightty';
-
-```
-__STEP 3 PROFIT__ 
-```
+// PROFIT
 console.log( mightty.cUN( value ) );
-
-```
-
-## Running tests
-
-```
-$ make test
 ```
 
 ## Authors
 
-See [AUTHORS](AUTHORS).
+See [AUTHORS](AUTHORS.md).
+
+## History
+
+See [HISTORY](HISTORY.md).
 
 # License
 
