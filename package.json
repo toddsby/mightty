@@ -1,0 +1,39 @@
+{
+  "name": "mightty",
+  "author": {
+    "name": "Drew Toddsby",
+    "email": "toddsby@gmail.com"
+  },
+  "version": "0.1.0",
+  "description": "ES6 Javascript Helper Library",
+  "homepage": "http://github.com/toddsby/",
+  "keywords": [
+    "utils",
+    "utility",
+    "mighty",
+    "mightyjs",
+    "mighttyjs",
+    "mightty",
+    "es6",
+    "es2015"
+  ],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/toddsby/mightty.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 4.5.0"
+  },
+  "maintainers": [
+    {
+      "name": "toddsby",
+      "email": "toddsby@gmail.com"
+    }
+  ],
+}
