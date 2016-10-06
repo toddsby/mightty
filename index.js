@@ -16,7 +16,9 @@
  * @return {Boolean}
  */
 
-export function cUN ( value ) {
+const cUN = ( value ) => {
   if ( type of value == 'undefined' || value === '' || value === null || value !== value ) return true;
   else return false;
 }
+
+export { cUN };
