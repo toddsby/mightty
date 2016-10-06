@@ -2,6 +2,7 @@ Mightty: ES6 Javascript Utility Library
 
 ## Requirements
 Mightty requires __node v4.5.0__ or higher for (partial) ES2015 support.
+(IE > 11, Firefox > 45, or Chrome > 55)
 
 ```
 $ npm i -S mightty
@@ -35,6 +36,10 @@ import mighty from 'mightty';
 mighttyConsole.log( mightty.isNil( value ) );
 ```
 
+## USE IN BROWSER
+```html
+<script src="lib/main.js"></script>
+```
 ## Authors
 
 See [AUTHORS](AUTHORS.md).
