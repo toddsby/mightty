@@ -20,7 +20,8 @@
   "main": "./lib/main.js",
   "files": [
     "lib",
-    "src"
+    "src",
+    "examples"
   ],
   "repository": {
     "type": "git",
@@ -39,5 +40,6 @@
       "name": "toddsby",
       "email": "toddsby@gmail.com"
     }
-  ]
+  ],
+  "tonicExampleFilename": "./examples/helloworld.js"
 }
