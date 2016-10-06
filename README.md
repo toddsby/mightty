@@ -18,7 +18,7 @@ let data = {
   d: 25
 };
 
-mighttyConsole.log( mightty.isNil( 'Empty? ',data.a, data.b, data.c, data.d ) );
+mighttyConsole.log( isNil( 'Empty? ',data.a, data.b, data.c, data.d ) );
 // returns Empty? True True False False
 
 ```
