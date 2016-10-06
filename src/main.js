@@ -2,7 +2,7 @@
 
 /**
  * Mightty
- * Javascript Helper Library
+ * Javascript Utility Library ES2015
  *
  * @author Drew Toddsby <toddsby@gmail.com>
  * @version 0.1.0
@@ -10,15 +10,15 @@
 
 
 /**
- * cUN: Check for undefined, null, or empty
+ * isNil: is value undefined, null, or empty
  * @param {Object} value to be checked
  *  
  * @return {Boolean}
  */
 
-const cUN = ( value ) => {
+const isNil = ( value ) => {
   if ( type of value == 'undefined' || value === '' || value === null || value !== value ) return true;
   else return false;
 }
 
-export { cUN };
+export { isNil };

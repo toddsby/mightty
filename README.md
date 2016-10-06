@@ -17,13 +17,13 @@ let data = {
   d: 25
 };
 
-console.log( mightty.cUN( data.a ) );
+console.log( mightty.isNil( data.a ) );
 // returns true
-console.log( mightty.cUN( data.b ) );
+console.log( mightty.isNil( data.b ) );
 // returns true
-console.log( mightty.cUN( data.c ) );
+console.log( mightty.isNil( data.c ) );
 // returns false
-console.log( mightty.cUN( data.d ) );
+console.log( mightty.isNil( data.d ) );
 // returns false
 
 ```
@@ -38,7 +38,7 @@ $ npm i -S mightty
 import mighty from 'mightty';
 
 // PROFIT
-console.log( mightty.cUN( value ) );
+console.log( mightty.isNil( value ) );
 ```
 
 ## Authors
