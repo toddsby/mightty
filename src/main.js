@@ -21,4 +21,29 @@ const isNil = ( value ) => {
   else return false;
 }
 
-export { isNil };
+/**
+ * mighttyConsole: pass mulitple arguments to console[log,warn,error]
+ *  
+ * console log made mightty
+ */
+
+class mighttyConsole {
+
+    static log () {
+        let args = Array.prototype.slice.call(arguments);
+        console.log.apply(console,args);
+    }
+    static warn () {
+        let args = Array.prototype.slice.call(arguments);
+        console.warn.apply(console,args);
+    }
+    static error () {
+        let args = Array.prototype.slice.call(arguments);
+        console.error.apply(console,args);
+    }
+
+}
+
+export { isNil,
+         mighttyConsole
+       };
