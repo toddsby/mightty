@@ -30,10 +30,10 @@ mighttyConsole.log( mightty.isNil( 'Empty? ',data.a, data.b, data.c, data.d ) );
 $ npm i -S mightty
 
 // STEP 2
-import mighty from 'mightty';
+import { isNil, mighttyConsole } from 'mightty';
 
 // PROFIT
-mighttyConsole.log( mightty.isNil( value ) );
+mighttyConsole.log( isNil( value ) );
 ```
 
 ## USE IN BROWSER
