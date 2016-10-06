@@ -17,14 +17,8 @@ let data = {
   d: 25
 };
 
-console.log( mightty.isNil( data.a ) );
-// returns true
-console.log( mightty.isNil( data.b ) );
-// returns true
-console.log( mightty.isNil( data.c ) );
-// returns false
-console.log( mightty.isNil( data.d ) );
-// returns false
+mighttyConsole.log( mightty.isNil( 'Empty? ',data.a, data.b, data.c, data.d ) );
+// returns Empty? True True False False
 
 ```
 
@@ -38,7 +32,7 @@ $ npm i -S mightty
 import mighty from 'mightty';
 
 // PROFIT
-console.log( mightty.isNil( value ) );
+mighttyConsole.log( mightty.isNil( value ) );
 ```
 
 ## Authors
