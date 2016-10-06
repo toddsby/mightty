@@ -17,7 +17,7 @@
  */
 
 const isNil = ( value ) => {
-  if ( type of value == 'undefined' || value === '' || value === null || value !== value ) return true;
+  if ( typeof value == 'undefined' || value === '' || value === null || value !== value ) return true;
   else return false;
 }
 
