@@ -5,7 +5,7 @@
  * Javascript Utility Library ES2015
  *
  * @author Drew Toddsby <toddsby@gmail.com>
- * @version 0.1.0
+ * @version 0.1.2
  */
 
 

@@ -2,3 +2,11 @@
 ==================
 
  * Mightty initial release
+
+
+0.1.2 / 2017-01-2
+==================
+
+ * Added method isArr
+ * Added method isInt
+ * Added method isStrongPassword
